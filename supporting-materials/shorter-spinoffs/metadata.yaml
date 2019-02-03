@@ -1,0 +1,22 @@
+---
+title: Anonymous, Massively Collaborative, Trans-human
+author: Dennis Yi Tenen
+bibliography: bib.bib
+toc: false
+csl: csl/mla-no-biblio.csl
+documentclass: article
+mainfont: "fbb"
+geometry: margin=1.5in
+fontsize: 12pt
+classoption: none
+header-includes:
+- \newcommand{\sectionbreak}{\clearpage}
+- \usepackage{fancyhdr, array}
+- \pagestyle{fancy}
+- \rhead{\today\hspace{0.5em}---\hspace{0.5em}draft\hspace{0.5em}---\hspace{0.5em} forthcoming in \textit{Rethinking Authorship}, ed. Haruo Shirane and Tomi Suzuki (Iwanami Shoten, 2018).}
+- \lhead{}
+- \usepackage{fontspec}
+- \usepackage{polyglossia}
+- \setotherlanguage{arabic}
+- \newfontfamily\arabicfont[Script=Arabic,Scale=1.25]{Scheherazade}
+---

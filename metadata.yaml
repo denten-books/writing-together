@@ -1,0 +1,22 @@
+---
+title: An Inquiry Concerning the Creative Limits of Artificial Intelligence
+author: Dennis Yi Tenen
+csl: csl/mla-no-biblio.csl
+bibliography: bib.bib
+toc: false
+documentclass: article
+mainfont: "fbb"
+geometry: margin=1.5in
+fontsize: 12pt
+classoption: none
+header-includes:
+- \newcommand{\sectionbreak}{\clearpage}
+- \usepackage{fancyhdr, array}
+- \pagestyle{fancy}
+- \rhead{\today\hspace{0.5em}---\hspace{0.5em}draft\hspace{0.5em}---\hspace{0.5em}not for circulation}
+- \lhead{}
+- \usepackage{fontspec}
+- \usepackage{polyglossia}
+- \setotherlanguage{arabic}
+- \newfontfamily\arabicfont[Script=Arabic,Scale=1.25]{Scheherazade}
+---
